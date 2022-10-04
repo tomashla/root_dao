@@ -26,3 +26,14 @@ You might ask: Okay Tomas, so what you wanna do when you do not want to disincen
 Well, I think that ideal answer does not exist. However I have tried to look at the solution from different point of view. Rather then asking what to prevent or who to disincentivize I had asked myself: " Who I want to incentivize. Who is the perfect DAO user, that adds the most value to the protocol?
 
 The answer is as ussually some sort of trade-off. Whales usually provides value in form of capital. Small users usually provide value in form of human capital such ass ideas, discussions, community moderation and community engagement. So the ideal user should be somewhere in an equlibrium of these 2 sources of added value. Thus being said, the ideal user base is the middle class. Those are the people that have their skin in the game however does not have enough resources to rule the protocol on their own.
+
+
+Features of Root DAO
+Performing of 2 sided voting
+Delegating your votes to your candidate if you want it
+
+
+Structure
+a) Staking contract => will generate staked amount NFT to prevent voting with the same tokens multiple times
+b) Voting contract => will accept NFT proof and adds the NFT to the list of used NFTs or modifies the NFT data to incorporate fact of voting
+c) Candidate contract => will accept NFT proofs and adds the votes to the amount of total votes (later it will enable cancelation of delegation)
