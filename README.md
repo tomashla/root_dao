@@ -37,3 +37,9 @@ Structure
 a) Staking contract => will generate staked amount NFT to prevent voting with the same tokens multiple times
 b) Voting contract => will accept NFT proof and adds the NFT to the list of used NFTs or modifies the NFT data to incorporate fact of voting
 c) Candidate contract => will accept NFT proofs and adds the votes to the amount of total votes (later it will enable cancelation of delegation)
+
+
+Realization plan
+1) make a simple voting contract
+2) votes will be granted for tokens staked in dao contract
+3) voting ticket will be NFT generated upon staking dao tokens to prevent voting more times with same tokens
