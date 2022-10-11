@@ -33,24 +33,25 @@ The answer is as usually some sort of trade-off. Whales usually provides value i
 
 ## Voting power concepts
 Vote weight should be combination of regressive and progressive concepts. What I mean by this is that 1 token will be equal to fraction of a vote, depending on the fact how many tokens user has. 
+
 I will take as an example DAO with 1 000 000 tokens. If we assume that our DAO expected user base is about 10 K people then optimal amount of tokens owned by 1 person would be 1 M / 10 K = 100 tokens per person. Consequently 100 per person we make our optimal amount and that will be our middle class. We do  not expect everybody to have same amount. That is not our aim. Our goal is that about 60 % has circa 100 tokens.
+
 Ceteris paribus, we want the people holding 100 tokens exactly incentivize the most and everybody having more or less incentivize less. By incentivize I mean giving the holders different token = Xxvote. Then we want more incentivize the smallest holders than the whales. So that is our hierarchy.
-To reach our goals we will apply following formulas: 
 
-The vote weight is calculated for every token separately 
-0-20th token   1token = 0.7vote
-21-100th token  1token = 0.7vote + (0.01vote x token number ) => so person with 21 tokens would have (20x0.7) + (1x0.7 + 0.01x1)
-Consequently 100th vote would have 1.5 voting power. From that point the curve will invert as following
-101-180th token 1token = 1.5vote - (0.01 x token number)
-From number token number 181 on, the token vote weight will be determined by a logaritmic function that goes trough points
+We will try to achieve our goal of delegating the most power to middle class by following series of points and functions going through them.
+The vote weight is calculated for every token separately.
 
-this will be given by formula
-Because we want to incentivite the middle class we should define it
-auss curve 60
+###### Interesting points table
 
-Features of Root DAO
-Performing of 2 sided voting
+
+###### Formulas
+
+
+## Features of Root DAO
+There is a list of features / suggested structure of Root DAO
+Performing of 2 sided voting (for x against)
 Delegating your votes to your candidate if you want it
+on-chain governance ( code proposal 
 
 
 Structure
@@ -59,7 +60,4 @@ b) Voting contract => will accept NFT proof and adds the NFT to the list of used
 c) Candidate contract => will accept NFT proofs and adds the votes to the amount of total votes (later it will enable cancelation of delegation)
 
 
-Realization plan
-1) make a simple voting contract
-2) votes will be granted for tokens staked in dao contract
-3) voting ticket will be NFT generated upon staking dao tokens to prevent voting more times with same tokens
+
