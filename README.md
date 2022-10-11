@@ -42,7 +42,7 @@ We will try to achieve our goal of delegating the most power to middle class by 
 The vote weight is calculated for every token separately.
 
 ###### Interesting points table
-
+<img src="https://github.com/tomashla/root_dao/blob/main/funkce.PNG" alt="Table of interesting points" title="Table of interesting points">
 
 ###### Formulas
 
