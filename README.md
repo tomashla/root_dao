@@ -42,10 +42,12 @@ We will try to achieve our goal of delegating the most power to middle class by 
 The vote weight is calculated for every token separately.
 
 ###### Interesting points table
-<img src="https://github.com/tomashla/root_dao/blob/main/funkce.PNG" alt="Table of interesting points" title="Table of interesting points">
+<img src="https://github.com/tomashla/root_dao/blob/main/interesting%20points.PNG" alt="Table of interesting points" title="Table of interesting points">
+###### Functions table
+<img src="https://github.com/tomashla/root_dao/blob/main/funkce.PNG" alt="Table of functions" title="Table of functions">
 
-###### Formulas
-
+###### Very simple chart how the result function/curve looks like
+<img src="https://github.com/tomashla/root_dao/blob/main/graf.png" alt="Vote weight chart" title="Vote weight chart">
 
 ## Features of Root DAO
 There is a list of features / suggested structure of Root DAO
