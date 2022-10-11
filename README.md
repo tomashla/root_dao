@@ -51,16 +51,11 @@ The vote weight is calculated for every token separately.
 <img src="https://github.com/tomashla/root_dao/blob/main/graf0.PNG" alt="Vote weight chart" title="Vote weight chart" >
 
 ## Features of Root DAO
-There is a list of features / suggested structure of Root DAO
-Performing of 2 sided voting (for x against)
-Delegating your votes to your candidate if you want it
-on-chain governance ( code proposal 
+*This is just list of features / capabilities that are for DAO in my opinion nice to have
 
-
-Structure
-a) Staking contract => will generate staked amount NFT to prevent voting with the same tokens multiple times
-b) Voting contract => will accept NFT proof and adds the NFT to the list of used NFTs or modifies the NFT data to incorporate fact of voting
-c) Candidate contract => will accept NFT proofs and adds the votes to the amount of total votes (later it will enable cancelation of delegation)
-
+1) Option to delegate votes to someone else => if proposals are regular, not everybody has time to check each
+2) Option to cancel his delegation and vote otherwise if the person does not agree with the delegate 
+3) On-chain governance 
+(code is in the proposal and when passed it will be uploaded directly onto the legder - I think that in Scrypto it could be done by having 2 Components - one storing the actual DAO state and the other would be for everythng else - holding the proposal code, voting and with right to change the DAO Component by uploading proposal code if the proposal gets passed)
 
 
