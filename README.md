@@ -43,6 +43,7 @@ The vote weight is calculated for every token separately.
 
 ###### Interesting points table
 <img src="https://github.com/tomashla/root_dao/blob/main/interesting%20points.PNG" alt="Table of interesting points" title="Table of interesting points" width="300">
+
 ###### Functions table
 <img src="https://github.com/tomashla/root_dao/blob/main/funkce.PNG" alt="Table of functions" title="Table of functions" width="300">
 
